@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>User Cards</h1>
+        
+        <!-- Filter and Sort Controls -->
+        <div id="controls">
+            <button id="sortName">Sort by Name</button>
+            <button id="filterEmail">Filter by Email</button>
+        </div>
+
+        <!-- Form to create a new user -->
+        <form id="create-user-form">
+            <h2>Create new user</h2>
+                <input type="text" id="name" placeholder="Name" required />
+                <input type="text" id="username" placeholder="Username" required />
+                <input type="email" id="email" placeholder="Email" required />
+                <button type="submit">Create User</button>
+        </form>
+
+        <!-- Container for new Users -->
+
+        <div id="userCards">
+            <!-- User cards will dynamiclly insterted here -->
+        </div>
+    </div>
+
+    
+</body>
+</html>
+<script src="Scripts/script.js"></script>
